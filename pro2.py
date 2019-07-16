@@ -1,13 +1,13 @@
-a,b=input().strip().split(" ")
-b=int(b)
+x,y=input().strip().split(" ")
+y=int(y)
 sum=0
-while(sum<len(a)-1 and b):
-  if(a[sum]>a[sum+1]):
-    b-=1
-    a=a[:sum]+a[sum+1:]
+while(sum<len(x)-1 and y):
+  if(x[sum]>x[sum+1]):
+    y-=1
+    x=x[:sum]+a[sum+1:]
     if(sum!=0):
       sum-=1
   else:
     sum+=1
-q1=a[:len(a)-b]
+q1=x[:len(x)-y]
 print(q1)
